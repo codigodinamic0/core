@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*---textos---*/
+.punteado { padding-bottom:3px; border-bottom:1px dotted #444; margin-bottom:5px; }
+.titu_secc { background:url(../imgs/folder32.png); background-repeat:no-repeat; background-position:0px -9px; padding-left:38px;  margin-top:10px; height:30px; margin-left:5px; font-size:16px; font-weight:bold;  }
+.titu_cat { margin:0px; background:url(../imgs/black.png); background-repeat:no-repeat; background-position:0px 2px; padding-left:20px; font-weight:bold; }
+.txt_ingresar { margin:0px; background:url(../imgs/img_add.png); background-repeat:no-repeat; background-position:0px 0px; padding-left:20px; }
+.destacado { padding:3px; background:#CC3300; color:#FFF; -moz-border-radius:3px; -webkit-border-radius:3px; }
+.destacado_verde { padding:3px; background:#57a000; color:#FFF; -moz-border-radius:3px; -webkit-border-radius:3px; }
+.doc { background:url(../imgs/doc.png); background-repeat:no-repeat; background-position:0px 0px; padding-left:20px; }
+.doc_proteg { background: url(../imgs/doc_proteg.png); background-repeat:no-repeat; background-position:0px 0px; padding-left:20px; }
+.doc_destacado { background:url(../imgs/doc_destacado.png); background-repeat:no-repeat; background-position:0px 0px; padding-left:20px; }
+.subir { background:url(../imgs/btn_upload.png);  background-repeat:no-repeat; background-position:0px 0px; padding-left:38px; padding-bottom:11px; float:left; padding-top:11px;  }
+.subir_foto { background: url(../imgs/btn_camera.png); background-repeat:no-repeat; background-position:0px 0px; padding-left:38px; padding-bottom:11px; float:left; padding-top:11px;  }
+.subir_musica { background: url(../imgs/btn_melody.png); background-repeat:no-repeat; background-position:0px 0px; padding-left:38px; padding-bottom:11px; float:left; padding-top:11px;  }
+.txt_verde { color: #57a000; }
+.home { background:url(../imgs/btn_home.png); background-repeat:no-repeat; background-position:0px 0px; padding-left:20px; padding-bottom:2px; padding-top:2px;  }
+.salir { background:url(../imgs/btn_logout.png); background-repeat:no-repeat; background-position:0px 0px; padding-left:20px; padding-bottom:2px; padding-top:2px;  }
+.urgente { color:#FF0000; font-weight:bold; }
+.avi { background: url(../imgs/btn_avi.png); background-repeat:no-repeat; background-position:0px 0px; padding-left:24px; padding-bottom:5px; float:left; padding-top:2px;  }
+.excel { background: url(../imgs/btn_excel.png); background-repeat:no-repeat; background-position:0px 0px; padding-left:24px; padding-bottom:5px; float:left; padding-top:2px; }
+.exe { background: url(../imgs/btn_exe.png); background-repeat:no-repeat; background-position:0px 0px; padding-left:24px; padding-bottom:5px; float:left; padding-top:2px; }
+.mpg { background: url(../imgs/btnmpg.png); background-repeat:no-repeat; background-position:0px 0px; padding-left:24px; padding-bottom:5px; float:left; padding-top:2px;  }
+.pdf { background: url(../imgs/btn_pdf.png); background-repeat:no-repeat; background-position:0px 0px; padding-left:24px; padding-bottom:5px; float:left; padding-top:2px;  }
+.pp { background: url(../imgs/btn_powerpoint.png); background-repeat:no-repeat; background-position:0px 0px; padding-left:24px; padding-bottom:5px; float:left; padding-top:2px;   }
+.word { background: url(../imgs/btn_word.png); background-repeat:no-repeat; background-position:0px 0px; padding-left:24px; padding-bottom:5px; float:left; padding-top:2px;  }
+.zip { background: url(../imgs/btn_zip.png); background-repeat:no-repeat; background-position:0px 0px; padding-left:24px; padding-bottom:5px; float:left; padding-top:2px;  }
+.editar { background:url(../imgs/pencil.png); background-repeat:no-repeat; background-position:0px 0px; padding-left:24px; padding-bottom:5px; float:left; padding-top:2px;  }
+.borrar { background:url(../imgs/cross.png); background-repeat:no-repeat; background-position:0px 0px; padding-left:24px; padding-bottom:5px; float:left; padding-top:2px;  }
+.herramientas { background:url(../imgs/hammer_screwdriver.png); background-repeat:no-repeat; background-position:0px 0px; padding-left:24px; padding-bottom:5px; float:left; padding-top:2px;  }
+.img_sec{ background: url(../imgs/btn_cameraplus.png); background-repeat:no-repeat; background-position:0px 0px; padding-left:24px; padding-bottom:5px; float:left; padding-top:2px;  }
+
+.miga { width:100%; margin-bottom:10px; margin-top:10px; }
+.miga a { margin-right:5px; }
+.miga a:hover { text-decoration:underline; }
+.miga h2 { margin-top:5px; }
+.flecha_miga { background:url(../imgs/btn_arrowright.png); background-repeat:no-repeat; background-position:0px 2px; padding-left:14px; }

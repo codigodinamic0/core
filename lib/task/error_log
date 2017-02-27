@@ -1,0 +1,16 @@
+[28-Sep-2015 22:11:22 Etc/GMT] PHP Warning:  array_merge(): Argument #1 is not an array in /home/webmargb/public_html/mondongos/task/server.php on line 27
+[28-Sep-2015 22:12:05 Etc/GMT] PHP Warning:  array_merge(): Argument #1 is not an array in /home/webmargb/public_html/mondongos/task/server.php on line 27
+[29-Sep-2015 22:56:50 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/webmargb/public_html/mondongos/task/server.php on line 69
+[09-Nov-2015 18:10:16 Etc/GMT] PHP Fatal error:  Call to undefined function fetch_object() in /home/webmargb/public_html/doral/task/serve.php on line 73
+[09-Nov-2015 18:10:32 Etc/GMT] PHP Fatal error:  Call to undefined function fetch_object() in /home/webmargb/public_html/doral/task/serve.php on line 73
+[09-Nov-2015 18:10:49 Etc/GMT] PHP Fatal error:  Call to undefined function fetch_object() in /home/webmargb/public_html/doral/task/serve.php on line 73
+[09-Nov-2015 18:11:41 Etc/GMT] PHP Fatal error:  Call to undefined function fetch_object() in /home/webmargb/public_html/doral/task/serve.php on line 73
+[09-Nov-2015 18:17:03 Etc/GMT] PHP Fatal error:  Call to undefined function fetch_object() in /home/webmargb/public_html/doral/task/serve.php on line 83
+[10-Nov-2015 20:17:55 Etc/GMT] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/webmargb/public_html/doral/task/serve.php on line 132
+[10-Nov-2015 22:16:07 Etc/GMT] PHP Fatal error:  Class 'Mailgun' not found in /home/webmargb/public_html/doral/task/serve.php on line 213
+[12-Nov-2015 19:35:38 Etc/GMT] PHP Warning:  Missing argument 2 for response(), called in /home/webmargb/public_html/doral/task/serve.php on line 291 and defined in /home/webmargb/public_html/doral/task/serve.php on line 357
+[12-Nov-2015 21:49:21 Etc/GMT] PHP Warning:  include_once(../lib/thumbnail/thumb_plugins/thumbnail.inc.php): failed to open stream: No such file or directory in /home/webmargb/public_html/doral/task/serve.php on line 155
+[12-Nov-2015 21:49:21 Etc/GMT] PHP Warning:  include_once(): Failed opening '../lib/thumbnail/thumb_plugins/thumbnail.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/webmargb/public_html/doral/task/serve.php on line 155
+[12-Nov-2015 21:49:21 Etc/GMT] PHP Fatal error:  Class 'Thumbnail' not found in /home/webmargb/public_html/doral/task/serve.php on line 157
+[27-Jun-2016 12:22:41 America/Chicago] PHP Warning:  require_once(../lib/recaptchalib.php): failed to open stream: No such file or directory in /home/codigodi/public_html/global_option/task/server.php on line 4
+[27-Jun-2016 12:22:41 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../lib/recaptchalib.php' (include_path='.:/opt/php54/lib/php') in /home/codigodi/public_html/global_option/task/server.php on line 4

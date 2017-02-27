@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admon/
+Disallow: /Connections/
+Disallow: /js/
+Disallow: /third_party/
+Disallow: /lib/
+
+
