@@ -1,0 +1,89 @@
+.alert {
+display:none;
+padding: 8px 35px 8px 14px;
+margin-bottom: 18px;
+color: #c09853;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+background-color: #fcf8e3;
+border: 1px solid #fbeed5;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+.alert-success {
+color: #468847;
+background-color: #dff0d8;
+border-color: #d6e9c6;
+}
+.alert-error {
+color: #b94a48;
+background-color: #f2dede;
+border-color: #eed3d7;
+}
+.info{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+}
+.info-error{
+    color: red;
+}
+.info-succes{
+    color: green;
+}
+.loader{
+    display: none;
+}
+.userfoto{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.addLabor{
+    background: none repeat scroll 0 0 #eee;
+    border-top: 0 none;
+    color: #696c6f;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+#infolaboral{
+    display: none;
+}
+.laborBtn{
+    background: none repeat scroll 0 0 #eee;
+    border-top: 0 none;
+    color: #696c6f;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    top: 9px;
+    width: 80px;
+}
+.laborSave{
+    background: none repeat scroll 0 0 #2dcd28;
+    border: 1px solid #157312;
+    color: #fff;
+    text-shadow: 0 0 1px #000;
+}
+.infoLaborAdded{
+    display: inline-table;
+    font-size: 12px;
+    text-align: justify;
+    width: 60%;
+}
+.showLaborInfo{
+    border-bottom: 1px solid;
+    display: block;
+    font-style: italic;
+    padding: 5px;
+}
+.controlInfoAdded{
+    float: right;
+}

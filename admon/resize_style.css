@@ -1,0 +1,75 @@
+#pointerSE,
+#pointerE,
+#pointerNE,
+#pointerN,
+#pointerNW,
+#pointerW,
+#pointerSW,
+#pointerS {
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	background-color: #78961A;
+	border: 2px solid #000000;
+	overflow: hidden;
+}
+
+
+#pointerSE {
+	bottom: -10px;
+	right: -10px;
+	cursor: se-resize;
+}
+
+
+#pointerE {
+	top: 50%;
+	right: -10px;
+	margin-top: -5px;
+	cursor: e-resize;
+}
+
+
+#pointerNE {
+	top: -10px;
+	right: -10px;
+	cursor: ne-resize;
+}
+
+
+#pointerN {
+	top: -10px;
+	left: 50%;
+	margin-left: -5px;
+	cursor: n-resize;
+}
+
+
+#pointerNW {
+	top: -10px;
+	left: -10px;
+	cursor: nw-resize;
+}
+
+
+#pointerW {
+	top: 50%;
+	left: -10px;
+	margin-top: -5px;
+	cursor: w-resize;
+}
+
+
+#pointerSW {
+	left: -10px;
+	bottom: -10px;
+	cursor: sw-resize;
+}
+
+
+#pointerS {
+	bottom: -10px;
+	left: 50%;
+	margin-left: -5px;
+	cursor: s-resize;
+}

@@ -1,0 +1,20 @@
+[19-Feb-2016 21:57:07 Etc/GMT] PHP Warning:  require_once(../Connections/database.php): failed to open stream: No such file or directory in /home/lateanoticias/public_html/admon/lib/server.php on line 3
+[19-Feb-2016 21:57:07 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required '../Connections/database.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/lateanoticias/public_html/admon/lib/server.php on line 3
+[19-Feb-2016 22:00:28 Etc/GMT] PHP Warning:  require_once(../Connections/database.php): failed to open stream: No such file or directory in /home/lateanoticias/public_html/admon/lib/server.php on line 3
+[19-Feb-2016 22:00:28 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required '../Connections/database.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/lateanoticias/public_html/admon/lib/server.php on line 3
+[19-Feb-2016 22:02:29 Etc/GMT] PHP Warning:  require_once(../Connections/database.php): failed to open stream: No such file or directory in /home/lateanoticias/public_html/admon/lib/server.php on line 3
+[19-Feb-2016 22:02:29 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required '../Connections/database.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/lateanoticias/public_html/admon/lib/server.php on line 3
+[19-Feb-2016 22:05:56 Etc/GMT] PHP Fatal error:  Uncaught exception 'Mailgun\Connection\Exceptions\MissingRequiredParameters' with message 'The parameters passed to the API were invalid. Check your inputs!' in /home/lateanoticias/public_html/admon/third_party/mailgun/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php:127
+Stack trace:
+#0 /home/lateanoticias/public_html/admon/third_party/mailgun/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(90): Mailgun\Connection\RestClient->responseHandler(Object(Guzzle\Http\Message\Response))
+#1 /home/lateanoticias/public_html/admon/third_party/mailgun/mailgun/mailgun-php/src/Mailgun/Mailgun.php(80): Mailgun\Connection\RestClient->post('sandbox9ceff158...', Array, Array)
+#2 /home/lateanoticias/public_html/admon/third_party/mailgun/mailgun/mailgun-php/src/Mailgun/Mailgun.php(36): Mailgun\Mailgun->post('sandbox9ceff158...', Array, Array)
+#3 /home/lateanoticias/public_html/admon/lib/server.php(57): Mailgun\Mailgun->sendMessage('sandbox9ceff158...', Array)
+#4 {main}
+  thrown in /home/lateanoticias/public_html/admon/third_party/mailgun/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php on line 127
+[25-Jun-2016 11:00:38 America/Chicago] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK), expecting ',' or ';' in /home/codigodi/public_html/global_option/admon/lib/ajax_produc.php on line 22
+[25-Jun-2016 11:02:03 America/Chicago] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/codigodi/public_html/global_option/admon/lib/ajax_produc.php on line 22
+[25-Jun-2016 11:04:17 America/Chicago] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/codigodi/public_html/global_option/admon/lib/ajax_produc.php on line 22
+[25-Jun-2016 11:04:20 America/Chicago] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/codigodi/public_html/global_option/admon/lib/ajax_produc.php on line 22
+[25-Jun-2016 11:05:04 America/Chicago] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/codigodi/public_html/global_option/admon/lib/ajax_produc.php on line 26
+[25-Jun-2016 11:05:07 America/Chicago] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/codigodi/public_html/global_option/admon/lib/ajax_produc.php on line 26
